@@ -1,0 +1,5 @@
+{
+    "git.ignoreLimitWarning": true,
+    "jupyter.jupyterServerType": "local",
+    "python.pythonPath": "/Users/ruthbayasmin/opt/anaconda3/envs/myvenv/bin/python"
+}
