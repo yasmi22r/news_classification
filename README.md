@@ -88,11 +88,11 @@ ROC Curve:
  
 ROC Curve for AdaBoost Classifier
 
-[roc_NB.pdf](https://github.com/yasmi22r/news_classification/files/6894531/roc_NB.pdf)
+![NBConf](https://user-images.githubusercontent.com/7517102/127354169-72546b1b-f52b-41da-84f4-ed81981e328e.png)
 
-Roc Curve for Naïve Bayes classifier
+ROC Curve for Naïve Bayes classifier
 
-Roc Curves for the remaining 8 classifiers didn’t render a proper trend except these two.
+ROC Curves for the remaining 8 classifiers didn’t render a proper trend except these two.
 
 Analyzing the Accuracy, F1-score, Recall and Precision graphs, we have determined and grouped our classifiers into three classes, i.e low performance, mid performance and high performance. We can determine that classifiers such as Linear_SVM and Poly_SVM are low performance classifiers and that holds true across all metrics i.e Accuracy, F1-score, Recall and Precision. Consequently, Neural Net, AdaBoost and Decision Tree belong to the medium performance tier. Lastly, we have Random Forest, RBF_SVM, Gradient Boosting Classifier, Extra Trees and Nearest Neighbors that have proven to be of high performance and they belong to the high-performance tier with outcome of 80% and above for all four metrics, Accuracy, F1-score, Recall and Precision.
 
