@@ -1,14 +1,25 @@
 # Classification of News HeadLines
 
-##### [DEMO VIDEO](https://www.youtube.com/watch?v=HeKchZ1dauM&feature=youtu.be)
 
-News Headline Classification through multiple machine learning model and comparison of results.
+We have conducted News Headline Classification using 10 machine learning algorithms, analyzed the outcome and compared our results using simple bar chart plots. News Headline Classification falls under Text classification which is the problem of assigning categories to text data according to its content. There are different techniques to extract information from raw text data and use it to train a classification model. In our project we explore a few such techniques. If we improve the performance of this, the resultant output will also change. 
+
+![image](https://user-images.githubusercontent.com/7517102/127349353-63eb7218-1cd5-4984-83bd-f2d3673b1081.png)
+
 
 Models implemented:
 
- * Multinomial Naive Bayes 
- * Support Vector Machines 
- * Neural Network with Softmax Layer
+•	Linear SVM
+•	Polynomial SVM
+•	Radial Basis Function SVM
+•	Multi-Layer Perceptron Classifier
+•	AdaBoost
+•	Decision Trees
+•	Random Forest
+•	Gradient Boosting
+•	Extra Trees
+•	Nearest Neighbors
+![image](https://user-images.githubusercontent.com/7517102/127349442-bc4968d2-f741-4058-8bcb-a77562b07612.png)
+
  
 
 Metrics used to evaluate the performance of models:
