@@ -30,12 +30,17 @@ Metrics used to evaluate the performance of models:
  
 ###### Objective
 
-
+We evaluated each classifier’s ability to select the appropriate category for given the news headline and their brief description. The confusion matrix is created to explore the results and calculate the metrics. We also relied on True Positive, True Negative, False Positive and False Negative values from the Confusion Matrix to calculate True Positive Rate and False Positive rate that would help us plot our ROC curves. We also plotted curves for Accuracy, Precision, Recall and F1 score for all 10 classifiers.
 
 ###### Feature Extraction Techniques:
-The collection of text documents is converted to a matrix of token counts using count vectorize that produces a sparse representation of the counts.
+The collection of text documents is converted into a matrix of token counts using Count Vectorize function that produces a sparse representation of the counts.
 
-TFIDF,term frequency–inverse document frequency, is the statistic that is intended to reflect how important a word is to a document in our corpus. This is used to extract the most meaningful words in the Corpus. 
+After the sparse representation of Count Vectorize we have used TFIDF; also known as terms frequency-inverse document frequency, it is the metric that determines how important a word is to a document in our corpus which is a technique used to extract the most meaningful words in the corpus.
+
+###### System Diagram
+
+![Screen Shot 2021-07-28 at 9 32 00 PM](https://user-images.githubusercontent.com/7517102/127351307-6af01599-ca0f-43ee-96c9-58f85bd1ab46.png)
+
 
 ###### Link to Dataset: [News Article Dataset](http://acube.di.unipi.it/tmn-dataset/) 
 TagMyNews Datasets is a collection of datasets of short text fragments that we used for the evaluation of  our topic-based text classifier. This is a dataset of  ~32K english news extracted from RSS feeds of popular newspaper websites (nyt.com, usatoday.com, reuters.com). Categories are: Sport, Business, U.S., Health, Sci&Tech, World and Entertainment.
